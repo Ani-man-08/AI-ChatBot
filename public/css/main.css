@@ -27,3 +27,33 @@ li a{
   text-align:center
 }
 
+body {
+    background: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.container {
+    background: #f5f5f5;
+}
+
+.message {
+    background: #e5e5e5;
+}
+
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+ body.dark .text-bold {
+    color: #121212;
+} 
+
+body.dark .container {
+    background: #1e1e1e;
+}
+
+body.dark .message {
+    background: #333;
+}

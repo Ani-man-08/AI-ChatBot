@@ -1,6 +1,19 @@
 let sendBtn = document.getElementById('sendBtn')
 let textbox = document.getElementById('textbox')
 let chatContainer = document.getElementById('chatContainer')
+let themeBtn = document.getElementById("themeBtn");
+
+themeBtn.addEventListener('click',() => {
+  document.body.classList.toggle("dark");
+
+    if(document.body.classList.contains("dark")){
+        themeBtn.innerHTML = "☀️";
+        themeBtn.style.backgroundColor = "white"
+    }else{
+        themeBtn.innerHTML = "🌙";
+        themeBtn.style.backgroundColor = "black"
+    }
+})
 
 let user = {message: ""}
 
