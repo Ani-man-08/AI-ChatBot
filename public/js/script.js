@@ -26,7 +26,6 @@ function sendMessage(userMsg){
   messageElement.innerHTML =
   "<span>You: <span/>" + 
   "<span>" + userMsg + "<span/>"
-  //userMsg.style.color="orange"
   chatContainer.appendChild(messageElement)
 }
 
